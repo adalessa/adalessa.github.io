@@ -1,0 +1,68 @@
+baseURL = 'https://adalessa.github.io/'
+languageCode = 'en-us'
+title = 'Ariel - Alpha Developer'
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Ariel D'Alessandro"
+  info = "Alpha Developer"
+  description = "Pagina personal, para blogs y mas"
+  keywords = "blog,developer,personal,youtube"
+  avatarurl = "images/avatar.jpg"
+  # gravatar = "dalessandro.ariel@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/adalessa/"
+[[params.social]]
+  name = "Youtube"
+  icon = "fa fa-youtube fa-2x"
+  weight = 2
+  url = "https://youtube.com/@Alpha_Dev/"
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight = 3
+  url = "https://discord.com/invite/4Pe8hfRfTx"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
